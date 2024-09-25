@@ -1,4 +1,7 @@
-More information in https://rapidforge.io/. Checkout [walkthrough video](https://youtu.be/k8p6r3uzEnI?si=7tutiWTuQBOYG-Gj)
+![Alt text](https://rapidforge.io//img/gh.jpg)
+
+
+More information in https://rapidforge.io/. Checkout our [walkthrough video](https://youtu.be/k8p6r3uzEnI?si=7tutiWTuQBOYG-Gj)
 
 Sample dockerfile for you to start with should you wish to use docker
 
