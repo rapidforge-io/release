@@ -1,11 +1,12 @@
-![Alt text](https://rapidforge.io//img/gh.jpg)
-
+<img width="1536" height="672" alt="gbb" src="https://github.com/user-attachments/assets/f967eb2d-54c6-4835-97fc-e0780b297683" />
 
 More information in https://rapidforge.io/. Checkout our [walkthrough video](https://youtu.be/k8p6r3uzEnI?si=7tutiWTuQBOYG-Gj)
 
 Sample dockerfile for you to start with should you wish to use docker
 
+
 ```dockerfile
+
 
 FROM debian:latest
 
