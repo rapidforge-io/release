@@ -2,6 +2,8 @@
 
 More information in https://rapidforge.io/. Checkout our [walkthrough video](https://youtu.be/k8p6r3uzEnI?si=7tutiWTuQBOYG-Gj)
 
+Source code can be found [here](https://github.com/rapidforge-io/rapidforge)
+
 Sample dockerfile for you to start with should you wish to use docker
 
 
