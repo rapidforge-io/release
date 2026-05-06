@@ -10,7 +10,8 @@
 
 - 🌐 **Website**: [rapidforge.io](https://rapidforge.io/)
 - 💻 **Source Code**: [rapidforge-io/rapidforge](https://github.com/rapidforge-io/rapidforge)
-- 📦 **Latest Release**: [Download here](https://github.com/rapidforge-io/release/releases/latest)
+- 📦 **Latest Release**: [Download here](https://github.com/rapidforge-io/rapidforge/releases/latest)
+- ℹ️ **Release Note**: New releases are now published at [rapidforge-io/rapidforge/releases](https://github.com/rapidforge-io/rapidforge/releases)
 
 ## 🎥 Walkthrough Video
 
@@ -43,9 +44,9 @@ WORKDIR /app
 ARG ARCH="x86_64"
 ARG PLATFORM="Linux"
 ARG BINARY_NAME="rapidforge"
-RUN VERSION=$(curl -s https://api.github.com/repos/rapidforge-io/release/releases/latest | jq -r '.tag_name') && \
+RUN VERSION=$(curl -s https://api.github.com/repos/rapidforge-io/rapidforge/releases/latest | jq -r '.tag_name') && \
     TARBALL="${BINARY_NAME}_${PLATFORM}_${ARCH}.tar.gz" && \
-    curl -L "https://github.com/rapidforge-io/release/releases/download/${VERSION}/${TARBALL}" -o ${TARBALL} && \
+    curl -L "https://github.com/rapidforge-io/rapidforge/releases/download/${VERSION}/${TARBALL}" -o ${TARBALL} && \
     tar -xzvf ${TARBALL} && \
     chmod +x ${BINARY_NAME} && \
     rm ${TARBALL}
